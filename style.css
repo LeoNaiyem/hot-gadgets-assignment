@@ -65,9 +65,7 @@ h2 {
     border-radius: 5px;
     margin-bottom: 15px;
 }
-/* .cat-img img{
-    width: 100%;
-} */
+
 .cat-4 img{
     width: 100%;
 }
@@ -84,33 +82,3 @@ footer p{
     text-align: center;
     color: lightgray;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* bootstrap.min.css | https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css */
-
-.carousel-indicators li {
-  /* background-color: #fff; */
-  background-color: rosybrown;
-}
-
-.carousel-control-next-icon, .carousel-control-prev-icon {
-  background-color: blue;
-}
-
-  
