@@ -23,11 +23,9 @@ h2 {
 .btn{
     background-color: #000000;
 }
-..carousel-indicators li{
+.carousel-indicators li{
     background-image:linear-gradient(90deg, blue, cyan);
-    border-radius: ;
 }
-
 .see-all{
     color: #FF9D00;
     font-size: 22px;
@@ -81,6 +79,10 @@ h2 {
 }
 .cat-3{
     margin-top: 25px;
+}
+footer p{
+    text-align: center;
+    color: lightgray;
 }
 
 
