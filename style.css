@@ -12,15 +12,31 @@ h2 {
 
 
 .container{
-        margin-bottom: 100px;
+        margin-bottom: 60px;
+}
+.bg-light{
+    background-color: white !important;
+}
+.nav-link{
+    margin-right: 50px;
+    transition: all 600ms ease;
+}
+.nav-link:hover{
+    background-color: cyan;
+    border-radius: 5px;
+}
+.carousel-indicators li{
+    background-image: linear-gradient(90deg, orange, #ffd632);
+    width: 2%;
+    height: 10px;
+    border-radius: 100px;
+    border: none;
+
+}
+.carousel-indicators .active{
+    width: 8%;
 }
 
-.carousel-indicators .active{
-    background-image:linear-gradient(90deg, #ffa200, #e7d805);
-    width: 55px;
-    height: 11px;
-    border-radius: 13px;
-}
 .carousel-item{
     padding: 10px 40px;
 }
@@ -30,13 +46,12 @@ h2 {
 .btn-dark{
     background-color: #000000;
 }
-.carousel-indicators li{
-    background-color: #cecece;
-    width: 16px;
-    height: 12px;
-    -webkit-border-radius: 41%;
-
+.btn-dark:hover{
+    color: lightblue;
+    background-color: deeppink;
+    box-shadow: 0px 0px 10px grey;
 }
+
 .see-all{
     color: #FF9D00;
     font-size: 22px;
@@ -46,7 +61,14 @@ h2 {
 .card{
     border: none;
     border-radius: 15px;
-    box-shadow: 5px 5px 10px #e6e6f0;
+    box-shadow: 5px 5px 10px lightgray;
+    transition: all 500ms ease;
+}
+.card:hover{
+    box-shadow: 5px 5px 20px rgb(133, 129, 129);
+    cursor: pointer;
+
+
 }
 
  .card-deck .card {
@@ -96,7 +118,6 @@ h2 {
 }
 
 #contact-us{
-
     box-shadow: #d0cbca 5px 5px 15px;
     padding: 90px 0px;
     background-color: #5b51590a;
@@ -120,47 +141,17 @@ input:focus{
 }
 .email-btn{
     margin-top: 15px;
+    background-color: black;
+    border: 1px solid gray;
+    color: white;
+    box-shadow: 0px 0px 5px #839192;
 }
 .email-btn:hover{
-    background-color: rgb(11, 184, 11);
+    background-color: #eee2e2;
+    box-shadow: 0px 0px 10px lightslategray;
 }
-
-
-
 
 footer{
     text-align: center;
     color: rgb(26, 23, 23);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* style.css | file:///C:/Users/mdnai/OneDrive/Desktop/Programing%20Hero's%20Courses/Module-7/hot-gadgets-assignment/style.css */
-
-.carousel-indicators li {
-
-    background-color: #CECECE;
-    -webkit-border-radius: 41%;
-  }
-  
-.form-control {
-    
 }
