@@ -1,7 +1,7 @@
 body{
-    background-color: white;
     font-family: 'Poppins';
 }
+
 h1{
     margin-bottom: 50px;
 }
@@ -12,13 +12,13 @@ h2 {
 
 
 .container{
-        margin-bottom: 60px;
+        margin-bottom: 80px;
 }
 .bg-light{
     background-color: white !important;
 }
 .nav-link{
-    margin-right: 50px;
+    margin-right: 40px;
     transition: all 600ms ease;
 }
 .nav-link:hover{
@@ -53,9 +53,10 @@ h2 {
 }
 
 .see-all{
-    color: #FF9D00;
+    color: #ffc400;
     font-size: 22px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .card{
@@ -138,6 +139,12 @@ input:focus{
     border-color:rgb(34, 84, 223);
     color:#000000;
     background-color: rgb(224, 178, 178);
+}
+.email-box{
+    transition: all 600ms ease;
+}
+.email-box:hover{
+    box-shadow: 0px 1px 10px gray;
 }
 .email-btn{
     margin-top: 15px;
