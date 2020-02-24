@@ -14,17 +14,28 @@ h2 {
 .container{
         margin-bottom: 100px;
 }
+
+.carousel-indicators .active{
+    background-image:linear-gradient(90deg, #ffa200, #e7d805);
+    width: 55px;
+    height: 11px;
+    border-radius: 13px;
+}
 .carousel-item{
     padding: 10px 40px;
 }
 .paragraph{
     color: #707070;
 }
-.btn{
+.btn-dark{
     background-color: #000000;
 }
 .carousel-indicators li{
-    background-image:linear-gradient(90deg, blue, cyan);
+    background-color: #cecece;
+    width: 16px;
+    height: 12px;
+    -webkit-border-radius: 41%;
+
 }
 .see-all{
     color: #FF9D00;
@@ -37,6 +48,11 @@ h2 {
     border-radius: 15px;
     box-shadow: 5px 5px 10px #e6e6f0;
 }
+
+ .card-deck .card {
+   border-radius: 15px;
+ }
+  
 .card-body{
     text-align: center;
 }
@@ -78,7 +94,73 @@ h2 {
 .cat-3{
     margin-top: 25px;
 }
-footer p{
+
+#contact-us{
+
+    box-shadow: #d0cbca 5px 5px 15px;
+    padding: 90px 0px;
+    background-color: #5b51590a;
+    border-radius: 10px;
+  }
+.from{
     text-align: center;
-    color: lightgray;
+}
+.email-box{
+    display: block;
+    width: 100%;
+    padding: 8px 8px;
+    border: 1px solid #c5cdd6;
+    border-radius: 5px;
+    
+}
+input:focus{
+    border-color:rgb(34, 84, 223);
+    color:#000000;
+    background-color: rgb(224, 178, 178);
+}
+.email-btn{
+    margin-top: 15px;
+}
+.email-btn:hover{
+    background-color: rgb(11, 184, 11);
+}
+
+
+
+
+footer{
+    text-align: center;
+    color: rgb(26, 23, 23);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* style.css | file:///C:/Users/mdnai/OneDrive/Desktop/Programing%20Hero's%20Courses/Module-7/hot-gadgets-assignment/style.css */
+
+.carousel-indicators li {
+
+    background-color: #CECECE;
+    -webkit-border-radius: 41%;
+  }
+  
+.form-control {
+    
 }
